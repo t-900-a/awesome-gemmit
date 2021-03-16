@@ -3,6 +3,7 @@
 > aggregation and web content rating website for gemini://
 
 ![](https://siasky.net/AAB20LSkGyNNVlqu353VdREc35QDP_xmGssZlEJOFKKJeA)
+
 Gemmit relies on an ecosystem of open technologies. When using Gemmit you'll want to use tools outside of the website to upvote your favorite feeds or to read your favorite feeds.
 
 [Project Gemini](https://gemini.circumlunar.space/)
