@@ -7,7 +7,9 @@
 Gemmit relies on an ecosystem of open technologies. When using Gemmit you'll want to use tools outside of the website to upvote your favorite feeds or to read your favorite feeds.
 
 [Project Gemini](https://gemini.circumlunar.space/)
+
 [The Atom Syndication Format](https://tools.ietf.org/html/rfc4287)
+
 [Monero](https://www.getmonero.org)
 
 ## Contents
