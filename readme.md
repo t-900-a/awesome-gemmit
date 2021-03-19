@@ -21,6 +21,7 @@
     - [Mobile](#mobile) 
     - [Browser](#browser)
 - [Cryptocurrencies](#cryptocurrencies)
+  - [QR Codes](#qrcodes)
   - [Monero](#monero)
     - [Mining](#mining)
     - [Wallets](#wallets) 
@@ -62,6 +63,20 @@ Any other Feed reader would be supported, but you will have to use a Gemini to h
 
 Readers can pay the authors/curators of feeds by paying them with cryptocurrencies.
 Monero is supported at this time, any other public blockchains can easily be supported.
+
+### QR Codes
+
+Gemmit is not responsible for accepting payments or for even display addresses for authors.
+
+At this time there are no open source feed readers that support rel="payment" urls, so it is important that the author display their address within their feed / gemini logs.
+
+QR codes should utilize uri formatting:
+`monero:46BeWrHpwXmHDpDEUmZBWZfoQpdc6HaERCNmx1pEYL2rAcuwufPN9rXHHtyUA4QVy66qeFQkn6sfK8aHYjA3jk3o1Bv16em?tx_amount=239.39014&tx_description=donation`
+
+QR codes are great way to display an address
+
+- [ASCII QR Code Generator](http://asciiqr.com/) - Website to generate ASCII based QR codes that will display within Gemini Clients
+- [ASCII QR Code Generator](https://github.com/fumiyas/qrc) (Go) - Generate ASCII QR codes locally
 
 ### Monero
 
