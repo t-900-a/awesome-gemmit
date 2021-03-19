@@ -25,6 +25,7 @@
     - [Mining](#mining)
     - [Wallets](#wallets) 
   - [Other](#other)
+- [Security Considerations](#security)
 
 
 ## ATOM/RSS Feeds
@@ -37,9 +38,15 @@ Note that all feeds submitted to Gemini must include a rel="payment" link.
 The generators listed will need to be modified in order to include the link within the author tag. I welcome any developers to modify an existing solution or to create a new feed generator.
 At this point in time it should manually be added after generation: <atom:link rel="payment" type="application/monero-paymentrequest" href="monero:donate.getmonero.org"/>
 
+As long as the atom feed is formatted correctly, Gemini will accept feeds valiable via http:// or gemini://.
+
+It is not required, but it is recommended for your feed entries to be gemini links. Remaining within the gemini browser makes it for a faster and better overall user experience.
+
 - [GMIToAtomFeed](https://github.com/LukeEmmet/GMIToAtomFeed) (Perl) - CGI script to generate an Atom feed for your Gemini log by parsing your gemlog index summary
 - [Gemfeed](https://tildegit.org/solderpunk/gemfeed) (Python) -  tool for generating Atom feeds for directories of text/gemini files
 - [Flounder](https://github.com/alexwennerberg/flounder) (Go) - A small site builder for the Gemini protocol, atom feeds are generated for you by the site.
+- [html2gmi](https://github.com/lukeemmet/html2gmi) (Go) - Could be used to go from an existing html blog to gmi, then an atom feed could be generated after that
+- [md2gmi](https://github.com/makeworld-the-better-one/md2gemini) (Python) - Markdown to gmi
 ### Readers
 Note that no readers currently support rel="payment" links included within feeds. Until there is client support it is recommended to display the uri the feed's content
 #### CLI
@@ -71,6 +78,12 @@ Incoming transactions need to be revealed in order to rank feeds on the site.
 
 ### Other
 Gemmits design was sensitive to that fact that everyone has their preferred currency. Tips could be denominated in BCH or USDC, it just takes someone to build it.
+
+## Security
+
+Gemmit accepts any atom feed that is formatted correctly with a rel="payment" link and does not try to solve the identity problem. 
+
+Due to this it is easy to claim another persons' work as your own. Therefore as a security / identity measure it is important that the feeds that you publish to Gemmit reference a domain that is know to be owned by you.
 
 ## Contribute
 
