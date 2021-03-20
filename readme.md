@@ -27,6 +27,7 @@
     - [Wallets](#wallets) 
   - [Other](#other)
 - [Security Considerations](#security)
+- [Known instances](#instances)
 
 
 ## ATOM/RSS Feeds
@@ -99,6 +100,10 @@ Gemmits design was sensitive to that fact that everyone has their preferred curr
 Gemmit accepts any atom feed that is formatted correctly with a rel="payment" link and does not try to solve the identity problem. 
 
 Due to this it is easy to claim another persons' work as your own. Therefore as a security / identity measure it is important that the feeds that you publish to Gemmit reference a domain that is know to be owned by you.
+
+## Known Instances
+
+- [Gemmit Mooo](gemini://gemmit.mooo.com)
 
 ## Contribute
 
