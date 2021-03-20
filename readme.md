@@ -104,7 +104,7 @@ Due to this it is easy to claim another persons' work as your own. Therefore as 
 ## Instances
 
 
-- [Gemmit Mooo](gemini://gemmit.mooo.com) - Gemmit instance
+- Gemmit Mooo - gemini://gemmit.mooo.com
 
 
 ## Contribute
