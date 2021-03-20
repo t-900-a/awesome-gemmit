@@ -101,9 +101,11 @@ Gemmit accepts any atom feed that is formatted correctly with a rel="payment" li
 
 Due to this it is easy to claim another persons' work as your own. Therefore as a security / identity measure it is important that the feeds that you publish to Gemmit reference a domain that is know to be owned by you.
 
-## Known Instances
+## Instances
 
-- [Gemmit Mooo](gemini://gemmit.mooo.com)
+
+- [Gemmit Mooo](gemini://gemmit.mooo.com) - Gemmit instance
+
 
 ## Contribute
 
