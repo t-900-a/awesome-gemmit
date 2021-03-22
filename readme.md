@@ -28,6 +28,7 @@
   - [Other](#other)
 - [Security Considerations](#security)
 - [Known instances](#instances)
+- [Bots](#bots)
 
 
 ## ATOM/RSS Feeds
@@ -110,3 +111,9 @@ Due to this it is easy to claim another persons' work as your own. Therefore as 
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+
+## Bots
+
+Feeds can be automated via scripting
+
+- [Gemini Fortune Teller](https://github.com/t-900-a/gemini-fortune-bot)
