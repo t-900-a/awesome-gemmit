@@ -108,12 +108,15 @@ Due to this it is easy to claim another persons' work as your own. Therefore as 
 - Gemmit Mooo - gemini://gemmit.mooo.com
 
 
-## Contribute
-
-Contributions welcome! Read the [contribution guidelines](contributing.md) first.
-
 ## Bots
 
 Feeds can be automated via scripting
 
 - [Gemini Fortune Teller](https://github.com/t-900-a/gemini-fortune-bot)
+
+
+
+## Contribute
+
+Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+
